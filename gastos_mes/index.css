@@ -1,4 +1,4 @@
-
+/* Estilo para a imagem de fundo */
 .bg-image {
     background-image: url('img/3d-rendering-abstract-black-white-background.jpg');
     background-size: cover;
@@ -12,31 +12,39 @@
     z-index: -1; 
 }
 
+/* Estilo básico do corpo */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
     margin: 0; 
+    font-family: Arial, sans-serif;
 }
 
+/* Definindo a largura dos containers e inputs */
 .container {
     flex: 1;
 }
 
 footer {
-    padding: 1px 0; 
+    padding: 1rem 0; 
     margin-top: 0; 
     font-size: 0.9rem; 
     background-color: #343a40; 
     color: #f8f9fa; 
 }
 
-.tamanho{
+.tamanho {
     width: 250px;
 }
 
-.tamanho_input{
+.tamanho_input {
     width: 250px;
 }
 
-
+/* Responsividade para tamanhos menores de tela */
+@media (max-width: 768px) {
+    .tamanho, .tamanho_input {
+        width: 100%;
+    }
+}
