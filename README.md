@@ -1,7 +1,8 @@
 # finaças 🧐
-##Participantes 
-  -Carlos Eduardo Costa de Mello.
-  -George Lucas Correia Pires.
+
+## Participantes:
+- Carlos Eduardo Costa de Mello.
+- George Lucas Pires Correia.
 
 ### Olá fizemos esse trabalho de Desnvolvimento Web.
 
