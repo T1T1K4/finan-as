@@ -1,0 +1,42 @@
+
+.bg-image {
+    background-image: url('img/3d-rendering-abstract-black-white-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    padding: 1px 0; 
+    margin-top: 0; 
+    font-size: 0.9rem; 
+    background-color: #343a40; 
+    color: #f8f9fa; 
+}
+
+.tamanho{
+    width: 250px;
+}
+
+.tamanho_input{
+    width: 250px;
+}
+
+
